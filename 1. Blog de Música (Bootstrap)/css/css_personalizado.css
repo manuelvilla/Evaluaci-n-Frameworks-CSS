@@ -31,6 +31,16 @@
 	color: white;
 }
 
+.imgpost{
+	width: 90%;
+	margin-top: 3vw;
+}
+
+.textoarea{
+	width: 95%!important;
+	height: 5em!important;
+}
+
 @media (max-width:767px){
 	.icono-pr{
 		margin-top: 3em;
