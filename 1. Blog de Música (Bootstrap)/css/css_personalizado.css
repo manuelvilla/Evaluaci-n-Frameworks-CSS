@@ -1,3 +1,28 @@
 @charset "utf-8";
 /* CSS Document */
 
+.cabecera{
+	width: 100%;
+	background-color: #e53935;
+}
+
+.logo{
+	margin-top: 1em;
+	margin-left: 5em;
+	margin-bottom: 1em;
+}
+
+.cabecera a{
+	color: seashell;
+}
+
+.icono-pr{
+	margin-top: 7em;
+	margin-bottom: 1em;
+}
+
+@media (max-width:767px){
+	.icono-pr{
+		margin-top: 3em;
+	}
+}
