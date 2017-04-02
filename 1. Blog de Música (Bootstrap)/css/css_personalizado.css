@@ -25,6 +25,12 @@
 	padding: 0 4.5vw;
 }
 
+#navigation li a:hover{
+	background: #000000;
+	opacity: 0.9;
+	color: white;
+}
+
 @media (max-width:767px){
 	.icono-pr{
 		margin-top: 3em;
