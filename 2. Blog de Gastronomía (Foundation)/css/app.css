@@ -23,3 +23,34 @@ body{
 #slogan{
 	font-style: italic;
 }
+
+.nostyle{
+	list-style: none;
+}
+
+.menu li a{
+	color: rgb(0,113,248);
+}
+
+.menu li a:hover{
+	color: black;
+}
+
+.menu li{
+	width: 90%;
+	margin-left: 5%;
+	border: 1px solid rgba(0,113,248,0.5);
+}
+
+.fav{
+	margin-top: 2em;
+	color: rgb(0,113,248);
+}
+
+.img{
+	width: 100%;
+}
+
+.visitados{
+	padding: 0.5em 0;
+}
