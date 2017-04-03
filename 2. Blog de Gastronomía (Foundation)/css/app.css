@@ -14,6 +14,11 @@ body{
 	margin-bottom: 2vw;
 	border-bottom: 3px solid rgba(251,184,144,0.47);
 }
+
+.callout{
+	width: 98%;
+}
+
 .blog{
 	border-right: dotted;
 	border-color: rgba(251,184,144,0.47);
