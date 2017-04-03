@@ -16,6 +16,10 @@
 	color: seashell;
 }
 
+.cabecera a:hover{
+	color: darkgrey;
+}
+
 .icono-pr{
 	margin-top: 7em;
 	margin-bottom: 1em;
@@ -40,6 +44,26 @@
 .textoarea{
 	width: 95%!important;
 	height: 5em!important;
+}
+
+.buscar{
+	margin-bottom: 3vw;
+}
+
+.list-group-item:hover{
+	background-color: lightgrey;
+}
+
+a .list-group-item{
+	color: grey;
+}
+
+a .list-group-item:hover{
+	color: #e53935;
+}
+
+.list-group a:hover{
+	text-decoration: none;
 }
 
 @media (max-width:767px){
