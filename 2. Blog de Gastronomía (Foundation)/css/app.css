@@ -1,0 +1,25 @@
+body{
+	background: url(../img/fondo_paris.jpg) no-repeat;
+	background-size:auto;
+}
+
+.contenido{
+	width: 80%;
+	margin-left: 10%;
+	background-color: rgba(222,89,10,0.59);
+}
+
+.cabecera{
+	min-height: 10em;
+	margin-bottom: 2vw;
+	border-bottom: 3px solid rgba(251,184,144,0.47);
+}
+.blog{
+	border-right: dotted;
+	border-color: rgba(251,184,144,0.47);
+	color: white;
+}
+
+#slogan{
+	font-style: italic;
+}
