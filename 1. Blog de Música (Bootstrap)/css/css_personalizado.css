@@ -1,17 +1,20 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*Estilo de bloque header*/
 .cabecera{
 	width: 100%;
 	background-color: #e53935;
 }
 
+/*Estilo para logo*/
 .logo{
 	margin-top: 1em;
 	margin-left: 5em;
 	margin-bottom: 1em;
 }
 
+/*Estilo de color para redes sociales*/
 .cabecera a{
 	color: seashell;
 }
@@ -20,11 +23,13 @@
 	color: darkgrey;
 }
 
+/*Estilo para bloque de redes sociales*/
 .icono-pr{
 	margin-top: 7em;
 	margin-bottom: 1em;
 }
 
+/*Estilos para menú*/
 #navigation li{
 	padding: 0 4.5vw;
 }
@@ -35,21 +40,25 @@
 	color: white;
 }
 
+/*Estilo para imágenes de post*/
 .imgpost{
 	width: 90%;
 	margin-top: 3vw;
 	margin-bottom: 1vw;
 }
 
+/*Estilo para comentarios*/
 .textoarea{
 	width: 95%!important;
 	height: 5em!important;
 }
 
+/*Estilo para barra de búsqueda lateral*/
 .buscar{
 	margin-bottom: 3vw;
 }
 
+/*Estilo para etiquetas barra lateral*/
 .list-group-item:hover{
 	background-color: lightgrey;
 }
@@ -66,18 +75,20 @@ a .list-group-item:hover{
 	text-decoration: none;
 }
 
+/*Estilos media para imágenes de post y redes sociales*/
 @media (max-width:767px){
 	.icono-pr{
 		margin-top: 3em;
 	}
 	
 	.imgpost{
-		width: 40%;
-		margin-left: 30%;
+		width: 50%;
+		margin-left: 25%;
 		margin-bottom: 2vw;
 	}
 }
 
+/*Estilos media para menú e imágenes de post*/
 @media (min-width:768px) and (max-width:841px){
 	#navigation li{
 		padding: 0 2.5vw;
@@ -90,6 +101,7 @@ a .list-group-item:hover{
 	}
 }
 
+/*Estilos media para menú e imágenes de post*/
 @media (min-width:842px) and (max-width:1060px){
 	#navigation li{
 		padding: 0 3vw;
