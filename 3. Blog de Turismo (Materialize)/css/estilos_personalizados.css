@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: url(../img/Chichen_itza.jpg) no-repeat center center fixed;
+}
+
+.cabecera{
+	height: 9em;
+	position: fixed;
+}
+
+.logo{
+	margin-top: 2em;
+	margin-left: 5em;
+	border-radius: 15px;
+}
+
+nav{
+	background-color: transparent;
+	box-shadow: none;
+}
+
+.slogan{
+	margin-top: 1.5em;
+	margin-left: 1em;
+	font-style: italic;
+}
+
