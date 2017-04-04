@@ -1,34 +1,40 @@
+/*Estilo para el fondo*/
 body{
-	background: url(../img/fondo_paris.jpg) no-repeat;
-	background-size:auto;
+	background: url(../img/fondo_paris.jpg) no-repeat center center fixed;
 }
 
+/*Estilo para la superposición del bloque contenedor*/
 .contenido{
 	width: 80%;
 	margin-left: 10%;
 	background-color: rgba(222,89,10,0.59);
 }
 
+/*Estilo para la cabecera*/
 .cabecera{
 	min-height: 10em;
 	margin-bottom: 2vw;
 	border-bottom: 3px solid rgba(251,184,144,0.47);
 }
 
+/*Estilo para los dos bloques de color sólido*/
 .callout{
-	width: 98%;
+	width: 100%;
 }
 
+/*Estilo de borde y letra para el título*/
 .blog{
 	border-right: dotted;
 	border-color: rgba(251,184,144,0.47);
 	color: white;
 }
 
+/*Estilo para slogan*/
 #slogan{
 	font-style: italic;
 }
 
+/*Estilo para menú*/
 .nostyle{
 	list-style: none;
 }
@@ -47,15 +53,75 @@ body{
 	border: 1px solid rgba(0,113,248,0.5);
 }
 
+/*Estilo para bloque de favoritos*/
 .fav{
 	margin-top: 2em;
 	color: rgb(0,113,248);
 }
 
+/*Estilo para imágenes del bloque favoritos*/
 .img{
 	width: 100%;
 }
 
+/*Estilo para etiquetas de historial*/
 .visitados{
 	padding: 0.5em 0;
+}
+
+/*Estilo para fecha de la entrada*/
+.pr{
+	color: rgb(0,113,248);
+	padding: 0 0.3em;
+}
+
+/*Estilo para imágenes de las entradas*/
+.imgpost{
+	width: 100%;
+	padding: 0.5em;
+}
+
+/*Estilo para el contenedor principal de las entradas*/
+.entrada{
+	width: 100%;
+	padding-left: 5%;
+}
+
+/*Estilo de letra de las entradas*/
+.texten{
+	font-size: 14px;
+}
+
+/*Estilo de los comentarios*/
+.areatexto{
+	width: 100%;
+	height: 2em;
+}
+
+.publicar{
+	margin-top: -1em;
+	float: right;
+}
+
+.comment{
+	padding: 0.2vw;
+}
+
+.imgcomment{
+	width: 90%;
+	border-radius: 45px;
+}
+
+/*Estilo de los comentarios publicados*/
+.user{
+	font-size: 16px;
+	color: rgb(0,113,248);
+}
+
+/*Estilo para móviles en vista portrait*/
+@media (max-width:500px){
+	.contenido{
+		width: 100%;
+		margin: 0;
+	}
 }
