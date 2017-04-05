@@ -1,29 +1,59 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*Estilos para toda la página*/
 body{
-	background: url(../img/Chichen_itza.jpg) no-repeat center center fixed;
+	background: url(../img/Chichen_itza.jpg) no-repeat center center fixed, rgba(144,121,121,0.60);
 }
 
+/*Estilos para cabecera*/
 .cabecera{
 	height: 9em;
 	position: fixed;
 }
 
+.cabecera1{
+	height: 9em;
+}
+
+/*Estilos para el logo*/
 .logo{
 	margin-top: 2em;
 	margin-left: 5vw;
 	border-radius: 15px;
 }
 
+/*Estilos para el menú*/
 nav{
 	background-color: transparent;
 	box-shadow: none;
 }
 
+/*Estilos para slogan*/
 .slogan{
-	margin-top: 1.5em;
+	margin-top: 0em;
 	margin-left: 1em;
 	font-style: italic;
 }
 
+
+/*Estilo para el fondo*/
+.content{
+	height: 100%;
+	background: rgba(144,121,121,0.60);
+}
+
+/*Estilo para redes sociales*/
+.vertical{
+	margin-top: 2em;
+}
+
+/*Estilo de margen para el contenido*/
+.margen{
+	margin-top: 4em;
+}
+
+/*Estilo para imágenes de post*/
+.imgpost{
+	width: 100%;
+}
