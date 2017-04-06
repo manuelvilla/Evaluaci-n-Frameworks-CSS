@@ -57,3 +57,68 @@ nav{
 .imgpost{
 	width: 100%;
 }
+
+/*Estilos para la visualización en móviles y orientación portrait*/
+@media (max-width:600px){
+	.btns{
+	  	display: inline-block;
+	  	height: 24px;
+	  	line-height: 24px;
+	  	padding: 0 0.05rem!important;
+	}
+	
+	i.left{
+		margin: 0 2px;
+	}
+	
+	.ulti{
+		float: right;
+	}
+	
+	.logo{
+		width: 90px;
+		margin-left: 1vw;
+	}
+	
+	.minimarg{
+		margin-top: 1em;
+	}
+	
+	.margin{
+		margin-left: 2em!important;
+	}
+	
+	.slogan{
+		margin-top: 2.3em;
+	}
+}
+
+/*Estilos para landscape en móviles y portrait en tablets*/
+@media (min-width:601px) and (max-width:1050px){
+	.btns{
+	  	display: inline-block;
+	  	height: 30px;
+	  	line-height: 30px;
+	  	padding: 0 0.5rem!important;
+	}
+	
+	.logo{
+		width: 110px;
+		margin-left: 1vw;
+	}
+	
+	.btn-large{
+		margin-left: -1.5em;
+		height: 40px!important;
+		width: 40px!important;
+	}
+	
+	.fa{
+		margin-top: -0.6em;
+	}
+	
+	.imgpost{
+		margin-top: 1.5em;
+	}
+}
+	
